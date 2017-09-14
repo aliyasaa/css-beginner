@@ -1,0 +1,93 @@
+/*#css can be applied in a html document in three ways.
+1.internaly by placing the style sheet in the html inside the head tag
+2.inline by defining the style rules inside the intended html tags.
+3.externaly by defining the style rules separately and placing the link of the style sheet in the html document.
+  
+  syntax:
+  selector
+  {
+  style:value;
+  }
+
+  if the style is internal;
+
+  <html>
+  <head>
+  <title>css example</title>
+  <style>
+  selector
+  {
+  style:value;
+  }
+  </style>
+</head>
+<body>
+.......</body>
+</html>
+
+exmple 
+*/
+.top
+{
+	margin:0;
+	background-color:blue;
+}
+
+.usr
+{
+	
+color:white;
+}
+.psd
+{
+	
+color:white;
+}
+.crt
+{
+border:1px;
+border-radius:12%;
+width:100%;
+margin-top:7s0px;
+text-align:center;
+}
+/*the selector '.' is used for class while for id '#' is used for definig html div tags*/
+ 
+ /*css colors  can be done in three ways which are
+ 1.names
+ 2.rgb vlue
+ 3.hex codes.
+
+ example*/
+ body
+ {
+ background-color:margenta;
+ }
+ h1
+ {
+ color:blue;
+ }
+ h2
+ {
+ color:#0000ff;
+ }
+h3
+{
+	color:rgb(0,0,255)
+}
+
+a
+{
+	text-decoration:none;
+}
+p
+{
+	text-decoration:underline;
+	font-stle:italics;
+	font-size:2em;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+
+}
+/*
+this is just some few examples in brief in the html beginner at the end of the tutorial i will create the real working style in more details*/
