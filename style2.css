@@ -89,5 +89,64 @@ p
 	letter-spacing:0.2em;
 
 }
+
+/*selectors defines elements to which style rules are applied
+example
+
+*/
+h1
+{
+color:red;
+}
+
+.menu
+{
+display:blocks;
+}
+/*selector can be grouped if the style rules are same
+example*/
+.footer, h2, #top
+{
+color:red;
+}
+
+
+.left p
+{
+font-style:italics:
+}
+
+
+a:link
+{
+text-decoration:none;
+}
+a:hover
+{
+color:green;
+}
+a:visited
+{
+color:blue;
+}
+/*shothand notation mostly applied in border,marging and padding....example*/
+.top
+{
+border-width:2px;
+border-color:blue;
+border-style:dashed;
+}
+
+.top
+{
+border:2px dashed blue;
+}
+
+<p style="font:italic small-caps bold 15px georgia;">
+Applying all the properties on the text at once.
+</p>
 /*
 this is just some few examples in brief in the html beginner at the end of the tutorial i will create the real working style in more details*/
+/*intermediate css*/
+
+
